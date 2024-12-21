@@ -24,7 +24,7 @@ match priority:
 if time_bound == "yes":
     reminder_message = f"Reminder: '{task}' is a {priority_message} task that requires immediate attention today!"
 else:
-    reminder_message = f"Note: '{task}' is a {priority_message} task. Consider completing it when you have free time."
+    reminder_message = f"Reminder: '{task}' is a {priority_message} task that does not require immediate attention today."
 
 # Print the final reminder message
-print('Finish project report' is a high priority task that requires immediate attention today!)
+print(reminder_message)
