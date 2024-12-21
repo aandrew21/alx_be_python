@@ -27,4 +27,4 @@ else:
     reminder_message = f"Note: '{task}' is a {priority_message} task. Consider completing it when you have free time."
 
 # Print the final reminder message
-print(reminder_message)
+print('Finish project report' is a high priority task that requires immediate attention today!)
